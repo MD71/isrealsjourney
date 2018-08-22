@@ -1,6 +1,16 @@
-.facebook {
-width:25px;
-height:25px;
+@media (max-width:500px){
+
+  .mobile_img{
+    width:100%;
+  }
+  .facebook {
+  width:60px;
+  height:60px;
+  }
+}
+
+.facebook:hover{
+  color:red;
 }
 .text_1 {
   margin-top:10px;
@@ -9,4 +19,3 @@ height:25px;
 .second_banner{
 margin-top: 10px;
 }
-style="background-color: #68CBE8;
