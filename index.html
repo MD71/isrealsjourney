@@ -4,6 +4,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="icons.css">
+  <script type="text/javascript">
+  function resizeIframe(obj){
+     obj.style.height = 0;
+     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -28,11 +34,13 @@
 
 
 </nav>
-<nav class = "text-center social_media"><a href ="#"><img class = "social_media_icon  img-fluid" src ="images/facebook.svg"</a><a href ="#"><img class = "social_media_icon  img-fluid" src ="images/twitter.svg"</a> <a href ="#"><img class = "social_media_icon  img-fluid" src="images/tumblr.svg"</a><a href = "https://www.gofundme.com/israelscure/donate"><img class = "social_media_icon  img-fluid" src="images/donate.svg"</a>  </nav>
+<nav class = "text-center social_media"><a href ="https://www.facebook.com/israelsoucier" target="_blank"><img class = "social_media_icon  img-fluid" src ="images/facebook.svg"</a><a href ="https://twitter.com/brian_soucier?lang=en"target="_blank"><img class = "social_media_icon  img-fluid" src ="images/twitter.svg"</a> <a href ="https://israelsjourney.tumblr.com/" target="_blank">
+  <img class = "social_media_icon  img-fluid" src="images/tumblr.svg"</a></nav>
 <div class ="container-fluid">
   <div class ="row">
-    <div class="col-12 col-lg-10 about_journey">
-<h2 class = "text-center">Isreals Journey</h2>
+    <div class="col-12 col-lg-10 col-xl-7 about_journey">
+<h1 class = "text-center">Israels Journey</h1>
+<div class = "donate_now no_hover text-center "><a class="donate_link"href="https://www.gofundme.com/israelscure/donate"target="_blank">DONATE</a></div>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -41,7 +49,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/hospital_smile.png" alt="First slide">
+      <img class="d-block w-100" src="images/black&white.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/bed_book.png" alt="Second slide">
@@ -96,10 +104,15 @@
 </div>
 
 
+</div>
 
-
+<div class = "feed">
+  <h3 class = "text-center tmblr_header"> Follow Israels journey on Tumblr</h3>
+<iframe src="https://www.powr.io/plugins/tumblr-feed/view?unique_label=bc365443_1535678523&external_type=iframe"  width="100%" height="100%" scrolling = "no" frameborder="0"></iframe>
 </div>
 <footer>
 </footer>
+
+
 </body>
 </html>
