@@ -1,0 +1,43 @@
+.calender {
+}
+
+.event_banners {
+  display: block;
+  margin:0 auto;
+
+}
+
+
+
+
+
+@media (max-width:500px){
+  .event_banners {
+    width: 100%;
+
+  }
+
+
+}
+
+
+@media (min-width:501px){
+  .event_banners {
+    display: block;
+    margin:0 auto;
+    width: 60%;
+
+  }
+
+
+}
+
+
+@media (min-width:901px){
+  .event_banners {
+    display: block;
+    margin:0 auto;
+    width: 40%;
+
+  }
+}
